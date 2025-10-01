@@ -1,7 +1,7 @@
 import snap7
 from snap7.util import set_bool
 
-PLC_IP = "192.168.0.1"   
+PLC_IP = "192.168.10.61"   
 
 def write_bool(db_number, start_byte, bit_index, value: bool):
     client = snap7.client.Client()
