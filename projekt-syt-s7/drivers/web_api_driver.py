@@ -1,8 +1,8 @@
 # webapi_driver.py
 import requests
 
-PLC_IP = "192.168.0.1"   # <- IP eurer SPS
-USERNAME = "admin"       # <- Zugangsdaten
+PLC_IP = "192.168.0.1"   
+USERNAME = "admin"       
 PASSWORD = "admin"
 
 def write_bool(var_name, value: bool):
